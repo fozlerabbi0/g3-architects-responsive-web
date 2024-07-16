@@ -109,6 +109,69 @@ main > section{
 #quick-list{
     font-weight: 500;
 }
+
+/* some facts related style */
+.some-sub-title{
+    margin-top: 5px;
+    width: 540px;
+}
+.some-fact-taitle{
+    margin-bottom: 10px;
+    
+}
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 120px;
+}
+.fact-card{
+    border: 2px solid #FF900E;
+    text-align: center;
+    padding: 35px;
+    border-radius: 8px;
+}
+.number-fact{
+    font-size: 2.8rem;
+    margin: 0;
+}
+.fact-name{
+    margin-top: 2px;
+}
+.factures-enjoy-items{
+    margin-right: 100px;
+}
+.fature-enjoy{
+    width: 586px;
+}
+.facture-item{ 
+    border: 0;
+    padding: 30px;
+    box-shadow: 0px 4px 3px 4px #f8f7f7;
+    border-radius: 8px;
+}
+.sponser-title{
+    text-align: center;
+}
+
+
+
+.img-container{
+    margin-top: 100px;
+    justify-content: space-around;
+    color: #727272;
+}
+
+
+.footer-text{
+padding: 39px;
+text-align: center;
+background-color: #FFF4E7;
+margin-top: 130px;
+}
+
+.footer-title{
+    text-align: center;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, 
